@@ -1,5 +1,5 @@
 import {world, system} from "@minecraft/server";
 
-world.beforeEvents.startup.subscribe((event) => {
+world.beforeEvents.worldInitialize.subscribe((event) => {
     event.
 })
