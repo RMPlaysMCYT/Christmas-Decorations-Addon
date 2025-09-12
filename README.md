@@ -18,5 +18,5 @@ This Add-on adds christmas stuff to your Minecraft World and to create christmas
 ## Addon Framework
 - @Minecraft/server: MIT
 ## Christmas Decoration Addon: 
-- REPOSITORY: **APACHE LICENSE 2.0**
+- REPOSITORY: **APACHE 2.0 LICENSE**
 - Ready to Use (MCADDON or MCADDON's/MCPACK or MCPACK's): **Proprietary**
