@@ -1,0 +1,60 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"RMPlaysMC YT"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.5.4"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Christmas Furniture Pack",
+		"description": "Addon by RMPlaysMC YT",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "dc1ab5af-c46b-45cf-a248-6e932432344c",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0af818e6-0dcd-4f30-bf4c-2c37942e2153",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"description": "",
+			"entry": "main.js",
+			"language": "javascript",
+			"uuid": "5bca49d8-4f61-43cb-a24b-b3f5dfe146de",
+			"version":[
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.19.0"
+		}
+	]
+}

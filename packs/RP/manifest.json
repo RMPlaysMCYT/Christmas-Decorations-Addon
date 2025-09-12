@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"RMPlaysMC YT"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.5.4"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Christmas Furniture Pack",
+		"description": "Addon by RMPlaysMC YT",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "e084dc56-9000-4e56-8127-4670f0b3683d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "ace3c5e7-e213-4c32-96e3-a3d447e9c6dc",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+entity.christmas_pack:christmas_tree.name=Christmas Tree
+entity.christmas_pack:christmas_lantern_red.name=Christmas Lantern Red
+entity.christmas_pack:christmas_lantern_green.name=Christmas Lantern Green
+entity.christmas_pack:christmas_lantern_blue.name=Christmas Lantern Blue
+entity.christmas_pack:christmas_sleigh.name=Christmas Sleigh
+
+item.spawn_egg.entity.christmas_pack:christmas_lantern_blue.name=Spawn Christmas Lantern Blue
+item.spawn_egg.entity.christmas_pack:christmas_lantern_green.name=Spawn Christmas Lantern Green
+item.spawn_egg.entity.christmas_pack:christmas_lantern_red.name=Spawn Christmas Lantern Red
+item.spawn_egg.entity.christmas_pack:christmas_tree.name=Spawn Christmas Tree
+item.spawn_egg.entity.christmas_pack:christmas_sleigh.name=Spawn Christmas Sleigh
+
+tile.christmas_pack:gift_orange.name=Gift Orange
+tile.christmas_pack:gift.name=Gift
+tile.christmas_pack:gift_blue.name=Gift Blue
+tile.christmas_pack:gift_green.name=Gift Green
+tile.christmas_pack:gift_pink.name=Gift Pink

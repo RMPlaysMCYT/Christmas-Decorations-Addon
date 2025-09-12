@@ -1,0 +1,23 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Christmas Furniture Pack",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"christmas_pack_gift": {
+			"textures": "textures/blocks/gift"
+		},
+		"christmas_pack_gift_blue": {
+			"textures": "textures/blocks/gift_blue"
+		},
+		"christmas_pack_gift_green": {
+			"textures": "textures/blocks/gift_green"
+		},
+		"christmas_pack_gift_pink": {
+			"textures": "textures/blocks/gift_pink"
+		},
+		"christmas_pack_gift_orange": {
+			"textures": "textures/blocks/gift_orange"
+		}
+	}
+}

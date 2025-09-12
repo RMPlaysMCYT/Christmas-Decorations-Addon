@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "christmas_pack:gift_pink"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.gift",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "christmas_pack_gift_pink",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      }
+    }
+  }
+}
