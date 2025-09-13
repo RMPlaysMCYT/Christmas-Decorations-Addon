@@ -4,7 +4,7 @@ world.beforeEvents.worldInitialize.subscribe((event) => {
     event.blockComponentRegistry.registerCustomrComponent("christmas_pack:gift_interact", {
         onPlayerInteract: event => {
             const {player, block} = event;
-            player.runCommand('say Hi')
+            player.runCommand("say Hi");
         }
     })
 });
