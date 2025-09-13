@@ -2,7 +2,10 @@
   "format_version": "1.21.20",
   "minecraft:block": {
     "description": {
-      "identifier": "christmas_pack:gift"
+      "identifier": "christmas_pack:gift",
+      "menu_category": {
+        "category": "items"
+      }
     },
     "components": {
       "minecraft:geometry": "geometry.gift",
@@ -14,11 +17,11 @@
       },
       "minecraft:collision_box": {
         "origin": [-8, 0, -8],
-        "size": [16, 16, 16]
+        "size": [8, 16, 8]
       },
       "minecraft:selection_box": {
         "origin": [-8, 0, -8],
-        "size": [16, 16, 16]
+        "size": [8, 16, 8]
       }
     }
   }
