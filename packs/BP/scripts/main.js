@@ -1,6 +1,6 @@
 import {world, system} from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe((event) => {
+world.beforeEvents.worldInitialize.subscribe(event => {
     event.blockComponentRegistry.registerCustomrComponent("christmas_pack:gift_interact", {
         onPlayerInteract: event => {
             const {player, block} = event;
