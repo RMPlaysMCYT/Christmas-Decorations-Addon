@@ -12,7 +12,7 @@ world.beforeEvents.worldInitialize.subscribe(event => {
             player.runCommand("say Hi");
         },
         onStepOn: event => {
-            const { block, dimension,player] } = event;
+            const { block, dimension,player } = event;
             const blockLocationes = block.location;
             const blockLocationes2 = `${blockLocationes.x} ${blockLocationes.y} ${blockLocationes.z}`;
             player.sendMessage(`Block Location: ${blockLocationes2}`);
