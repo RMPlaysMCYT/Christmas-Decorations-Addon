@@ -12,10 +12,10 @@ world.beforeEvents.worldInitialize.subscribe(event => {
             player.runCommand("say Hi");
         },
         onStepOn: event => {
-            const { block, dimension } = event;
+            const { block, dimension,player] } = event;
             const blockLocationes = block.location;
             const blockLocationes2 = `${blockLocationes.x} ${blockLocationes.y} ${blockLocationes.z}`;
-            dimension.runCommand(`execute positioned ${blockLocationes2} run say "Keep Off The Gift"`);
+            player.sendMessage(`Block Location: ${blockLocationes2}`);
         }
     })
     event.blockComponentRegistry.registerCustomComponent("christmas_pack:gift_green_interact", new GreenGift());
