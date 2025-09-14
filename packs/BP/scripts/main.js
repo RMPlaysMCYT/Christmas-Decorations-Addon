@@ -2,7 +2,7 @@
 import {world, system} from "@minecraft/server";
 
 ///LOCAL MODULE
-import { GreenGift } from "./blocks/gift";
+import { GreenGift, OrangeGift } from "./blocks/gift";
 
 
 world.beforeEvents.worldInitialize.subscribe(event => {
@@ -17,6 +17,7 @@ world.beforeEvents.worldInitialize.subscribe(event => {
         }
     })
     event.blockComponentRegistry.registerCustomComponent("christmas_pack:gift_green_interact", new GreenGift());
+    event.blockComponentRegistry.registerCustomComponent("christmas_pack:gift_orange_interact", new OrangeGift());
 });
 
 console.log("Christmas Pack Loaded");
