@@ -13,6 +13,7 @@ world.beforeEvents.worldInitialize.subscribe(event => {
             const blockLocationes = `${x} ${y} ${z}`;
             event.dimension.runCommand("say Suprise!");
             dimension.runCommand(`loot spawn ${blockLocationes} loot "gift1"`);
+            dimension.runCommand(`setblock ${blockLocationes} air [] destroy`);
         }
         // ,
         // onStepOn: event => {
