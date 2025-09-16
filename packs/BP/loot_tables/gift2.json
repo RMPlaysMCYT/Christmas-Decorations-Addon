@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spruce_log",
+                    "count": 16
+                }
+            ]
+        }
+    ]
+}
