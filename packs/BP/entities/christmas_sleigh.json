@@ -5,7 +5,8 @@
 			"identifier": "christmas_pack:christmas_sleigh",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"properties": {}
 		},
 		"components": {
 			"minecraft:rideable": {
